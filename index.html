@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prime Video</title>
+        <link rel="stylesheet" href="./style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" 
+                aria-label="Tenth navbar example">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample08"
+                        aria-controls="navbarsExample08" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div
+                        class="collapse navbar-collapse justify-content-md-center"
+                        id="navbarsExample08">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./index.html"><b>prime video</b></a>
+                            </li>
+                            <!-- home - dropdown -->
+                                    <li class="nav-item dropdown">
+                                        <button
+                                            class="btn btn-dark dropdown-toggle"
+                                            data-bs-toggle="dropdown">
+                                            Home
+                                        </button>
+                                        <ul
+                                            class="dropdown-menu dropdown-menu-dark">
+                                            <li><a class="dropdown-item"
+                                                    id="btn"
+                                                    href="#">All</a></li>
+                                            <li><a class="dropdown-item"
+                                                    id="btn"
+                                                    href="../Main2/Movie.html">Movie</a></li>
+                                            <li><a class="dropdown-item"
+                                                    id="btn"
+                                                    href="#">TV Shows</a></li>
+                                        </ul>
+                                    </li>
+                            <!-- Store - dropdown -->
+                            <li class="nav-item dropdown">
+                                <button
+                                    class="btn btn-dark dropdown-toggle"
+                                    data-bs-toggle="dropdown">
+                                    Store
+                                </button>
+                                <ul
+                                class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item"
+                                    id="btn"
+                                    href="#">All</a></li>
+                                    <li><a class="dropdown-item"
+                                        id="btn"
+                                        href="#">Rent</a></li>
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Channels</a></li>
+                                        </ul>
+                                    </li>
+                            <!-- live tv - btn -->
+                                    <button class="btn btn-dark">
+                                        Live TV
+                                    </button>
+                            <!-- Language - dropdown -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <div class="listlan">
+                                    <div class="list1">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Bahasa Indonesia</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Bahasa Melayu</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Dansk</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Deutsch</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">English</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Español</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Français</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Italiano</a></li>
+                                    </div>
+                                    <div class="list2">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Magyar</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Nederlands</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Norsk</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Polski</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Português (Brasil)</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Português (Portugal)</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Română</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Suomi</a></li>
+                                    </div>
+                                    <div class="list3">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Svenska</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Türkçe</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Wikang Filipino</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Čeština</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Ελληνικά</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Русский</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">עברית</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">العربية</a></li>
+                                    </div>
+                                    <div class="list4">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">हिन्दी</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">தமிழ்</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">తెలుగు</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">ไทย</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">日本語</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">简体中文</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">繁體中文</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">한국어</a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                            <!-- categorie - dropdown -->
+                            <li class="nav-item dropdown">
+                                <button
+                                    class="btn btn-dark dropdown-toggle"
+                                    data-bs-toggle="dropdown">
+                                    Categories
+                                </button>
+                                <ul
+                                class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item"
+                                    id="btn one"
+                                    href="#"><b>Genres</b></a></li>
+                                <div class="list">
+                                    <div class="list1">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Action and adventure</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Anime</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Comedy</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Documentary</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Drama</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Fantasy</a></li>
+                                    </div>
+                                    <div class="list2">
+                                        <li><a class="dropdown-item"
+                                            id="btn"
+                                            href="#">Horror</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Kids</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Mystery and thrillers</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Romance</a></li>
+                                        <li><a class="dropdown-item"
+                                                id="btn"
+                                                href="#">Science fiction</a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        
+                            <!-- subscribe - btn -->
+                            <button class="btn btn-dark">
+                                <b>Subscribe Now</b>
+                            </button>
+
+                        <!-- login -->
+                        <li class="nav-item dropdown">
+                            <button
+                                class="btn btn-dark"
+                                data-bs-toggle="dropdown">
+                                <img src="../img/login.png" alt="" height="25px">
+                            </button>
+                            <ul
+                            class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item"
+                                id="btn"
+                                href="../Main2/form.html">Sign In</a></li>
+                                <li><a class="dropdown-item"
+                                    id="btn"
+                                    href="#">Help</a></li>
+                                    <li><a class="dropdown-item"
+                                        id="btn"
+                                        href="#">Watch Anywhere</a></li>
+                                    </ul>
+                            </li>
+                    </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- ================================ Middle - 1 ====================================================== -->
+
+        <div class="middle1">
+            <div class="text">
+                <div id="text">
+                    <h2>Welcome to Prime Video</h2>
+                    <br>
+                    <h5>Join Prime to watch the latest movies, TV shows and award-
+                    <br>winning Amazon Originals</h5>
+                    <br>
+                    <div class="d-grid col-4 ">
+                        <a href="../Main2/form.html">
+                            <button class="btn btn-primary"  id="btn1" type="button">
+                                Sing in to join Prime</button>  
+                            </a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ====================================== Middle-2 ======================================= -->
+
+        <div class="middle2">
+            <div class="text">
+                <div id="text">
+                    <h2>Movie rentals on Prime Video</h2>
+                    <br>
+                    <h5>Early Access to new movies, before digital subscription</h5>
+                    <br>
+                    <div class="d-grid col-4 ">
+                        <button class="btn btn-primary"  id="btn1" type="button">Rent now</button>  
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ================================= Middle-3====== =========================== -->
+
+        <div class="middle3">
+            <div class="m3">
+                <p style="font-size: 44px;">Your favorite channels all in one place</p>
+                <br>
+                <p style="font-size: 24px;">With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice
+                </p>
+            </div>
+            <div class="m3-2">
+                <div class="dov">
+                    <img src="../img/brand/LionsgatePlay-426X2946_V1.jpg" alt="" srcset="" height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_Discovery.jpg" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_BBC_PLAYER.png" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_MANORAMAMAX.jpg" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/hoichoi-426X2946_V1.jpg" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_Chaupal.png" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_Anime.jpg" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294.png" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/426x294_MGMPLUS.png" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/Vrott.png" alt="" srcset=""  height="125" width="180">
+                    
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/Erosnow-426X2948_V1.jpg" alt="" srcset=""  height="125" width="180">
+                </div>
+                <div class="dov">
+                    <img src="../img/brand/Stingray.png" alt="" srcset=""  height="125" width="180">
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================ Footer =======================================================-->
+
+        <div class="footer">
+            <div class="main-logo">
+                <img src="../img/web_footer_logo._CB462908456_.png" alt="">
+            </div>
+
+            <div class="f1">
+                <ol id="f1">
+                    <li><span style="color: #79B8F3;">
+                        <a href="#" 
+                        style="text-decoration: none;"
+                        target="_blank">Terms of Use</a>
+                    </span></li>
+                    <li><span style="color: #79B8F3;">
+                        <a href="#" 
+                        style="text-decoration: none;"
+                        target="_blank">Send Us Feedback</a>
+                    </span></li>
+                    <li><span style="color: #79B8F3;">
+                        <a href="#" 
+                        style="text-decoration: none;"
+                        target="_blank">Help</a>
+                    </span></li>
+                </ol>
+            </div>
+            <div class="f2">
+                <p style="color: #8197A4;">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+
+        
+    </body>
+</html>

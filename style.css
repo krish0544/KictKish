@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    align-items: center;
+    background-color: #00050D;
+}
+
+.list{
+    display: flex;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.listlan{
+    display: flex;
+}
+
+/* ======================================middle-1 =======================================  */
+
+
+.middle1{
+    height: 595px;
+    max-width: auto;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0),rgba(0, 0, 0, 0.151)),url("../img/amazon-prime-releases.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+}
+
+.text{
+    height: 300px;
+    width: 700px;
+}
+#text{
+    left: 50px;
+    top: 50px;
+    color: white;
+    transform: translate(50px , 50px );
+}
+
+#btn1{
+    border-radius: 3px;
+}
+
+/* ======================================middle-2 =======================================  */
+.middle2{
+    height: 595px;
+    max-width: auto;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0),rgba(0, 0, 0, 0.151)),url("../img/img2.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+/* ======================================middle-3 =======================================  */
+
+.middle3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.m3{
+    height: 500px;
+    width: 500px;
+    
+}
+
+.m3-2{
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+.dov{
+    height: 125px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.dov:hover{
+   
+    box-shadow: 2px 2px 10px black;
+}
+
+
+/* ================================================footer============================================= */
+
+
+.footer{
+    height: 139px;
+    max-width: auto;
+    background-color: #222222;
+    align-content: center;
+    text-align: center;
+}
+
+#f1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* =============================**Reponsive**======================================== */
+
+@media only screen and (max-width:600px) {
+    .middle1{
+        width: 300px;
+    }
+}
