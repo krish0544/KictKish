@@ -70,7 +70,13 @@ header {
   z-index: 3;
 }
 
+#list{
+  display: flex;
+}
 
+/* ul#dropdown-menu{
+  margin-left: -200px;
+} */
 
 /* =============== */
 
