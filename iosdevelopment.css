@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #60697B; */
+}
+header {
+  background-color: #db3a3a;
+  height: 30px;
+  display: grid;
+  grid-template-columns: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#box {
+  height: 25px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-color: aliceblue;
+
+}
+
+#info {
+  color: white;
+}
+
+#navlist:hover{
+  color: red;
+}
+
+/* dropdown box  */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  z-index: 3;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  z-index: 3;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 3;
+}
+
+#list{
+  display: flex;
+}
+
+
+/* =============slider=============== */
+
+main{
+    background-color: #dde0e6b9;
+}
+.slider1{
+    height: 300px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    border: 2px solid black;
+    background-image: url(../rnw_web_slider-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f1f1f1;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: auto;
+    height: 1200px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: transparent;
+    margin-inline: 30px;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+#details-web{
+    display: grid;
+    grid-template-columns: auto;
+    height: 1300px;
+    width: 900px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 20px;
+}
+
+
+.courses-details{
+    color: #60697B;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.btn-apply{
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
+    place-items: center;
+}
+
+
+.module{
+    color: white;
+    text-decoration: none;
+    animation: btn infinite 4s ease-out;
+    transition: transform;
+}
+
+#programming{
+    text-decoration: none;
+}
+
+@keyframes btn {
+    0%{
+        transform: scale(0.8);
+    }    
+
+    50%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0.8);
+    }
+}
+@media only screen and (max-width:750px)
+{
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #details-web{
+        width: 100%;
+        overflow: scroll;
+    }
+}
+
+        
+        
+/* Demo = form */
+        
+section{
+    height: 1100px;
+    width: 30%;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.video{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(../architecture-ancient-monument-world-heritage-day-celebration.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video,
+.video:before,
+.video:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pulse{
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(
+        #ff0000,
+        #ff3c00
+    );
+    position: absolute;
+    margin: auto;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+.pulse:before,
+.pulse:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ff0000;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.pulse:before{
+    animation: pulse 2s ease-out infinite;
+}
+.pulse:after{
+    animation: pulse 2s 1s ease-out infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+
+    50%{
+        transform: scale(1);
+        opacity: 0.89;
+    }
+    100%{
+        transform: scale(1.5);
+        opacity: 1;
+    }
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: auto;
+    position: sticky;
+    top: 57px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    margin-top: 20px;
+}
+
+form input, form select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+}
+
+.captcha label {
+    margin-left: 10px;
+}
+
+
+.btn-group a{
+    text-decoration: none;
+    color: white;
+}
+.btn-group{
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+@media only screen and (max-width:750px) {
+
+    section{
+        width: 100%;
+    }
+    .form-container {
+        width: 100%;
+    }
+    
+    
+}
